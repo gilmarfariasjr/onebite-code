@@ -1,0 +1,47 @@
+
+main{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.278);
+}
+
+.foto{
+    width: 90%;
+    height: 400px;
+}
+
+.texto{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media(max-width:790px){
+    .foto{
+        width: 100%;
+        height: auto;
+    }
+    .titulo{
+        text-align: center;
+    }
+    .texto{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 320px){
+    .foto{
+        width: 100%;
+        height: auto;
+    }
+    .titulo{
+        text-align: center;
+    }
+    .texto{
+        font-size: 14px;
+        text-align: center;
+    }
+}

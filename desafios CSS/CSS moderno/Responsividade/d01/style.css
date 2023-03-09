@@ -1,0 +1,30 @@
+.foto{
+    width: 796px;
+    height: 400px;
+}
+
+.texto{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@media (max-widht:795px){
+    .foto{
+        width: 500px;
+    }
+    .texto{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media (max-widht: 510px){
+    .foto{
+        width: 100%;
+        height: auto;
+    }
+    .texto{
+        text-align: center;
+    }
+}

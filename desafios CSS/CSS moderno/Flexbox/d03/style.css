@@ -1,0 +1,101 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Tilt+Warp&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+  }
+  .header {
+    flex-basis: 100%;
+    background-image: linear-gradient(to bottom, #F20534, #c4042ad5,white);
+    color: white;
+    display: flex;
+    padding: 15px;
+    border-radius: 5px;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .logoyou{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 10px;
+  }
+  
+  .bola{
+    width: 40px;
+    height: 40px;
+  }
+
+  .paragrafo{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Acme';
+    color: black;
+  }
+
+  h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Acme';
+    color: #78021A;
+    padding: 40px;
+    text-align: left;
+    text-decoration: underline ;
+  }
+
+  .texto{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .negrito{
+    font-size: 20px;
+    font-family: 'Open Sans';
+  }
+  .mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    flex: 1 0 auto;
+  }
+  .item {
+    flex-basis: 350px;
+    height: 230px;
+    box-shadow: 0px 0px 7px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    flex-basis: 100%;
+    background-image: linear-gradient(to top, #F20534, #c4042ad5,white);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+  a{
+    color: #006E6E ;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: white;
+  }

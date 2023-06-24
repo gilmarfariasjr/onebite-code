@@ -4,38 +4,43 @@
     box-sizing: border-box;
 }
 
-header{
+.header{
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 25px;
+    flex-wrap: wrap;
+    min-height: 60px;
+    padding: 10px;
+}
+.logo{
+    min-width: 150px;
 }
 
-#icon{
-    width: 40px;
+.entrar{
+    
 }
 
-#logo{
-    width: 200px;
-}
-
-.button{
-    display: flex;
-    gap: 10px;
-}
-
-.buton{
-    font-size: 13px;
-    padding: 5px 10px;
-    border-radius: 10px;
+.butoes{
     background-color: transparent;
-    border-color: white;
     color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.butoes:hover{
+    border: 1px solid red;
+    transition: 1.0s;
     cursor: pointer;
-    transition: 0.4s;
 }
 
-.buton:hover{
-    border-color: #ff0044;
+@media (max-width:620px){
+    .header{
+        justify-content: center;
+    }
+    .icon{
+        display: none;
+    }
+    .logo{
+        padding: 15px;
+    }
 }

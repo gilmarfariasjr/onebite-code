@@ -4,18 +4,17 @@
     box-sizing: border-box;
 }
 
-.container{
+#container{
     min-height: 100vh;
-    background-color: darkgrey;
+    background-color: darkgray;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px 15px;
-    grid-auto-rows: minmax(210px, 290px);
+    grid-auto-rows: minmax(210px, 100%);
 }
-
-.item{
-    background-color: white;
+.itens{
     border: 1px solid black;
-    font-size: 30px;
+    background-color: white;
+    font-size: 20px;
     padding: 10px;
 }

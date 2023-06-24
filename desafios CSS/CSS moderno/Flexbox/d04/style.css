@@ -5,7 +5,7 @@
 }
 
 .container{
-    background-color: rgb(160, 160, 160);
+    background-color: darkgrey;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -14,13 +14,12 @@
     flex-wrap: wrap;
 }
 
-.flexcontainer{
+.itens{
     width: 200px;
-    height: 200px;
-    border: 2px solid black;
+    min-height: 200px;
+    border: 1px solid black;
     background-color: white;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: justify;
+    padding: 10px;
 }
+
